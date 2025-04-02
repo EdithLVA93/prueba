@@ -68,7 +68,7 @@ La aplicación estará disponible en **http://localhost:4200/**
 |---------|-----------------------------------------------------|-----------------------------------------------------|
 | POST    | `/api/vehiculos/registrar-ingreso`        			    | Registra la entrada de un vehículo                  |
 | POST    | `/api/vehiculos/liquidar-salida`         			      | Calcula el pago y registra salida                   |
-| GET     | `/api/vehiculos/ListadoVehiculos?inicio=xx&fin=xx`  | Lista vehículos estacionados en un rango de tiempo  |
+| GET     | `/api/vehiculos/ListadoVehiculos?fechaInicio=xx&fechaFin=xx`  | Lista vehículos estacionados en un rango de tiempo  |
 | POST    | `/api/tiposvehiculo/Insertar`                  		  | Crea un nuevo tipo de vehículo                      |
 | GET     | `/api/tiposvehiculo`                  				      | Lista todos los tipos de vehículo                   |
 | POST    | `/api/supermercados/Insertar`                 		  | Crea un nuevo supermercado aliado                   |
@@ -81,9 +81,9 @@ La aplicación estará disponible en **http://localhost:4200/**
 - Implementación de pagos en línea
 - Soporte para múltiples tarifas según el tipo de vehículo
 - Panel de administración con estadísticas
-- Creación de supermercados desde el front
-- Creación de tipos de vehiculos/liquidar-salida desde el front
-- Administración de usuaruios y roles
+- Administración de supermercados desde el front
+- Administración de tipos de vehiculos/liquidar-salida desde el front
+- Administración de usuarios y roles
 - JWT
 
 ---
