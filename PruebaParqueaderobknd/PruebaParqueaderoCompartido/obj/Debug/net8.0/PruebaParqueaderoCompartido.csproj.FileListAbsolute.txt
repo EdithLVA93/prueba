@@ -1,0 +1,12 @@
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\bin\Debug\net8.0\PruebaParqueaderoCompartido.deps.json
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\bin\Debug\net8.0\PruebaParqueaderoCompartido.dll
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\bin\Debug\net8.0\PruebaParqueaderoCompartido.pdb
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\obj\Debug\net8.0\PruebaParqueaderoCompartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\obj\Debug\net8.0\PruebaParqueaderoCompartido.AssemblyInfoInputs.cache
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\obj\Debug\net8.0\PruebaParqueaderoCompartido.AssemblyInfo.cs
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\obj\Debug\net8.0\PruebaParqueaderoCompartido.csproj.CoreCompileInputs.cache
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\obj\Debug\net8.0\PruebaParqueaderoCompartido.dll
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\obj\Debug\net8.0\refint\PruebaParqueaderoCompartido.dll
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\obj\Debug\net8.0\PruebaParqueaderoCompartido.pdb
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\obj\Debug\net8.0\ref\PruebaParqueaderoCompartido.dll
+C:\Users\lilia\source\repos\PruebaParqueadero\PruebaParqueaderoCompartido\obj\Debug\net8.0\PruebaParqueaderoCompartido.csproj.AssemblyReference.cache

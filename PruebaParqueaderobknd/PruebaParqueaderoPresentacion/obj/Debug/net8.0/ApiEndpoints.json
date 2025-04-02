@@ -1,0 +1,128 @@
+[
+  {
+    "ContainingType": "PruebaParqueaderoPresentacion.Controllers.SupermercadosController",
+    "Method": "ObtenerSupermercados",
+    "RelativePath": "api/Supermercados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaParqueaderoPresentacion.Controllers.SupermercadosController",
+    "Method": "InsertarSupermercado",
+    "RelativePath": "api/Supermercados/insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supermercadoDto",
+        "Type": "PruebaParqueaderoCore.Dtos.SupermercadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaParqueaderoPresentacion.Controllers.TiposVehiculosController",
+    "Method": "ObtenerTiposVehiculo",
+    "RelativePath": "api/TiposVehiculos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaParqueaderoPresentacion.Controllers.TiposVehiculosController",
+    "Method": "InsertarTipoVehiculo",
+    "RelativePath": "api/TiposVehiculos/insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoVehiculoDto",
+        "Type": "PruebaParqueaderoCore.Dtos.TipoVehiculoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaParqueaderoPresentacion.Controllers.VehiculoController",
+    "Method": "LiquidarSalidaVehiculo",
+    "RelativePath": "api/vehiculos/liquidar-salida",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PruebaParqueaderoCore.Dtos.LiquidarSalidaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaParqueaderoPresentacion.Controllers.VehiculoController",
+    "Method": "ObtenerListadoVehiculos",
+    "RelativePath": "api/vehiculos/ListadoVehiculos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaInicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaParqueaderoPresentacion.Controllers.VehiculoController",
+    "Method": "RegistrarIngreso",
+    "RelativePath": "api/vehiculos/registrar-ingreso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PruebaParqueaderoCore.Dtos.RegistrarIngresoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaParqueaderoPresentacion.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PruebaParqueaderoPresentacion.WeatherForecast, PruebaParqueaderoPresentacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

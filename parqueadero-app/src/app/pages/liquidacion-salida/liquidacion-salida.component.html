@@ -1,0 +1,43 @@
+<form [formGroup]="liquidacionForm" (ngSubmit)="liquidarSalida()">
+    <mat-card>
+      <mat-card-title>Liquidación de Salida</mat-card-title>
+      <mat-card-content>
+  
+        <!-- Placa -->
+        <mat-form-field class="full-width">
+          <mat-label>Placa del Vehículo</mat-label>
+          <input matInput formControlName="placa" required>
+        </mat-form-field>
+  
+        <!-- Supermercado -->
+        <mat-form-field class="full-width">
+          <mat-label>Supermercado</mat-label>
+          <mat-select formControlName="idSupermercado">
+            <mat-option [value]="null">Ninguno</mat-option>
+            <mat-option *ngFor="let supermercado of supermercados" [value]="supermercado.idSupermercado">
+              {{ supermercado.nombreSupermercado }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+  
+        <!-- Número de Factura -->
+        <mat-form-field class="full-width">
+          <mat-label>Número de Factura</mat-label>
+          <input matInput formControlName="numeroFactura">
+        </mat-form-field>
+  
+        <!-- Usuario Actualización (Solo Lectura) -->
+        <mat-form-field class="full-width">
+          <mat-label>Usuario</mat-label>
+          <input matInput formControlName="usuarioActualizacion" readonly>
+        </mat-form-field>
+  
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary" type="submit" [disabled]="liquidacionForm.invalid || cargando">
+          Liquidar Salida
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+  

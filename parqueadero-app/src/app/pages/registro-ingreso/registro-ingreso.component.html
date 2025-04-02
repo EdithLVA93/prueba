@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-title>Registro de Ingreso</mat-card-title>
+    <form [formGroup]="ingresoForm" (ngSubmit)="registrarIngreso()">
+      <mat-form-field class="full-width">
+        <mat-label>Placa del Vehículo</mat-label>
+        <input matInput formControlName="placa" required>
+      </mat-form-field>
+  
+      <mat-form-field class="full-width">
+        <mat-label>Tipo de Vehículo</mat-label>
+        <mat-select formControlName="idTipoVehiculo" required>
+          <mat-option *ngFor="let tipo of tiposVehiculo" [value]="tipo.idTipoVehiculo">
+            {{ tipo.nombreTipoVehiculo }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+  
+      <button mat-raised-button color="primary" type="submit" [disabled]="ingresoForm.invalid">Registrar</button>
+    </form>
+  </mat-card>
+  

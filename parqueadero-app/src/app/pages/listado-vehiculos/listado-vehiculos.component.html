@@ -1,0 +1,57 @@
+<mat-card>
+    <mat-card-title>Listado de Vehículos Estacionados</mat-card-title>
+    
+    <form [formGroup]="filtroForm" (ngSubmit)="obtenerVehiculos()">
+      <mat-form-field class="full-width">
+        <mat-label>Fecha Inicio</mat-label>
+        <input matInput type="date" formControlName="fechaInicio" required>
+      </mat-form-field>
+  
+      <mat-form-field class="full-width">
+        <mat-label>Fecha Fin</mat-label>
+        <input matInput type="date" formControlName="fechaFin" required>
+      </mat-form-field>
+  
+      <button mat-raised-button color="primary" type="submit" [disabled]="filtroForm.invalid">Buscar</button>
+    </form>
+  </mat-card>
+  
+  <mat-card *ngIf="vehiculos.length > 0">
+    <mat-table [dataSource]="vehiculos" class="mat-elevation-z8">
+      <ng-container matColumnDef="placa">
+        <mat-header-cell *matHeaderCellDef> Placa </mat-header-cell>
+        <mat-cell *matCellDef="let vehiculo"> {{ vehiculo.placa }} </mat-cell>
+      </ng-container>
+  
+      <ng-container matColumnDef="tipo">
+        <mat-header-cell *matHeaderCellDef> Tipo de Vehículo </mat-header-cell>
+        <mat-cell *matCellDef="let vehiculo"> {{ vehiculo.nombreTipoVehiculo }} </mat-cell>
+      </ng-container>
+  
+      <ng-container matColumnDef="fechaEntrada">
+        <mat-header-cell *matHeaderCellDef> Fecha Entrada </mat-header-cell>
+        <mat-cell *matCellDef="let vehiculo"> {{ vehiculo.fechaEntrada | date:'short' }} </mat-cell>
+      </ng-container>
+  
+      <ng-container matColumnDef="fechaSalida">
+        <mat-header-cell *matHeaderCellDef> Fecha Salida </mat-header-cell>
+        <mat-cell *matCellDef="let vehiculo"> {{ vehiculo.fechaSalida | date:'short' }} </mat-cell>
+      </ng-container>
+  
+      <ng-container matColumnDef="tiempo">
+        <mat-header-cell *matHeaderCellDef> Minutos Estacionado </mat-header-cell>
+        <mat-cell *matCellDef="let vehiculo"> {{ vehiculo.tiempoParqueo }} min </mat-cell>
+      </ng-container>
+  
+      <ng-container matColumnDef="totalPagado">
+        <mat-header-cell *matHeaderCellDef> Total Pagado </mat-header-cell>
+        <mat-cell *matCellDef="let vehiculo"> ${{ vehiculo.totalPagado }} </mat-cell>
+      </ng-container>
+  
+      <mat-header-row *matHeaderRowDef="['placa', 'tipo', 'fechaEntrada', 'fechaSalida', 'tiempo', 'totalPagado']"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: ['placa', 'tipo', 'fechaEntrada', 'fechaSalida', 'tiempo', 'totalPagado'];"></mat-row>
+    </mat-table>
+  </mat-card>
+  
+  <mat-spinner *ngIf="cargando"></mat-spinner>
+  

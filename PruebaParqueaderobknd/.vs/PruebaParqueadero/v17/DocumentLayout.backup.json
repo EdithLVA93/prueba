@@ -1,0 +1,666 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\dtos\\vehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\dtos\\vehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderoinfraestructura\\datos\\storedprocedurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|solutionrelative:pruebaparqueaderoinfraestructura\\datos\\storedprocedurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\servicios\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\servicios\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderoinfraestructura\\datos\\parqueaderodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|solutionrelative:pruebaparqueaderoinfraestructura\\datos\\parqueaderodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\entidades\\registrosvehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\entidades\\registrosvehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderopresentacion\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|solutionrelative:pruebaparqueaderopresentacion\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\entidades\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\entidades\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\dtos\\registraringresorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\dtos\\registraringresorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderopresentacion\\controllers\\tiposvehiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|solutionrelative:pruebaparqueaderopresentacion\\controllers\\tiposvehiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderopresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|solutionrelative:pruebaparqueaderopresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderopresentacion\\controllers\\supermercadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|solutionrelative:pruebaparqueaderopresentacion\\controllers\\supermercadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\dtos\\supermercadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\dtos\\supermercadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\servicios\\supermercadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\servicios\\supermercadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderoinfraestructura\\datos\\supermercadorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|solutionrelative:pruebaparqueaderoinfraestructura\\datos\\supermercadorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\entidades\\supermercado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\entidades\\supermercado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\servicios\\tipovehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\servicios\\tipovehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\dtos\\tipovehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\dtos\\tipovehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\entidades\\tiposvehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\entidades\\tiposvehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderoinfraestructura\\datos\\tipovehiculorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|solutionrelative:pruebaparqueaderoinfraestructura\\datos\\tipovehiculorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\interfaces\\isupermercadorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\interfaces\\isupermercadorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\interfaces\\itipovehiculorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\interfaces\\itipovehiculorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\interfaces\\isupermercadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\interfaces\\isupermercadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\interfaces\\itipovehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\interfaces\\itipovehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\dtos\\liquidarsalidarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\dtos\\liquidarsalidarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderoinfraestructura\\startupsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|solutionrelative:pruebaparqueaderoinfraestructura\\startupsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderopresentacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|solutionrelative:pruebaparqueaderopresentacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderoinfraestructura\\defaultinfraestructuremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|solutionrelative:pruebaparqueaderoinfraestructura\\defaultinfraestructuremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\defaultcoremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\defaultcoremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\interfaces\\ivehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\interfaces\\ivehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125D6F17-91E0-4EED-B205-AAEE50ECA707}|PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocompartido\\eventos\\domaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125D6F17-91E0-4EED-B205-AAEE50ECA707}|PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj|solutionrelative:pruebaparqueaderocompartido\\eventos\\domaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125D6F17-91E0-4EED-B205-AAEE50ECA707}|PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocompartido\\eventos\\domaineventbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125D6F17-91E0-4EED-B205-AAEE50ECA707}|PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj|solutionrelative:pruebaparqueaderocompartido\\eventos\\domaineventbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125D6F17-91E0-4EED-B205-AAEE50ECA707}|PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocompartido\\interfaces\\idomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125D6F17-91E0-4EED-B205-AAEE50ECA707}|PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj|solutionrelative:pruebaparqueaderocompartido\\interfaces\\idomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\entidades\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\entidades\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocore\\pruebaparqueaderocore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5D38FFD8-AB9E-4CA1-B737-1D216170EB09}|PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj|solutionrelative:pruebaparqueaderocore\\pruebaparqueaderocore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderoinfraestructura\\pruebaparqueaderoinfraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B79DDB59-2183-48C8-BBF4-924203399054}|PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj|solutionrelative:pruebaparqueaderoinfraestructura\\pruebaparqueaderoinfraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderopresentacion\\pruebaparqueaderopresentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15AAE9DB-8CC4-4445-9DA4-65FCA2CAFF44}|PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj|solutionrelative:pruebaparqueaderopresentacion\\pruebaparqueaderopresentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125D6F17-91E0-4EED-B205-AAEE50ECA707}|PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj|c:\\users\\lilia\\source\\repos\\pruebaparqueadero\\pruebaparqueaderocompartido\\pruebaparqueaderocompartido.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{125D6F17-91E0-4EED-B205-AAEE50ECA707}|PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj|solutionrelative:pruebaparqueaderocompartido\\pruebaparqueaderocompartido.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Servicios\\VehiculoService.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Servicios\\VehiculoService.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Servicios\\VehiculoService.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Servicios\\VehiculoService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:35:46.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoredProcedureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\Datos\\StoredProcedureRepository.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoInfraestructura\\Datos\\StoredProcedureRepository.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\Datos\\StoredProcedureRepository.cs",
+              "RelativeToolTip": "PruebaParqueaderoInfraestructura\\Datos\\StoredProcedureRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:32:14.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrosVehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\RegistrosVehiculo.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Entidades\\RegistrosVehiculo.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\RegistrosVehiculo.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Entidades\\RegistrosVehiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:38:44.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VehiculoDto.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Dtos\\VehiculoDto.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Dtos\\VehiculoDto.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Dtos\\VehiculoDto.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Dtos\\VehiculoDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:36:38.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ParqueaderoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\Datos\\ParqueaderoDbContext.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoInfraestructura\\Datos\\ParqueaderoDbContext.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\Datos\\ParqueaderoDbContext.cs",
+              "RelativeToolTip": "PruebaParqueaderoInfraestructura\\Datos\\ParqueaderoDbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA7wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:20:22.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VehiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\Controllers\\VehiculoController.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoPresentacion\\Controllers\\VehiculoController.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\Controllers\\VehiculoController.cs",
+              "RelativeToolTip": "PruebaParqueaderoPresentacion\\Controllers\\VehiculoController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:41:16.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Entidades\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\Vehiculo.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Entidades\\Vehiculo.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:24:40.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistrarIngresoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Dtos\\RegistrarIngresoRequest.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Dtos\\RegistrarIngresoRequest.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Dtos\\RegistrarIngresoRequest.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Dtos\\RegistrarIngresoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:41:51.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\Program.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoPresentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\Program.cs",
+              "RelativeToolTip": "PruebaParqueaderoPresentacion\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwC8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:42:58.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TiposVehiculosController.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\Controllers\\TiposVehiculosController.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoPresentacion\\Controllers\\TiposVehiculosController.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\Controllers\\TiposVehiculosController.cs",
+              "RelativeToolTip": "PruebaParqueaderoPresentacion\\Controllers\\TiposVehiculosController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:09:32.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SupermercadosController.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\Controllers\\SupermercadosController.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoPresentacion\\Controllers\\SupermercadosController.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\Controllers\\SupermercadosController.cs",
+              "RelativeToolTip": "PruebaParqueaderoPresentacion\\Controllers\\SupermercadosController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA9wCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:09:58.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SupermercadoService.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Servicios\\SupermercadoService.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Servicios\\SupermercadoService.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Servicios\\SupermercadoService.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Servicios\\SupermercadoService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBsAAACkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:13:01.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TipoVehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Servicios\\TipoVehiculoService.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Servicios\\TipoVehiculoService.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Servicios\\TipoVehiculoService.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Servicios\\TipoVehiculoService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBsAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:12:40.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SupermercadoDto.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Dtos\\SupermercadoDto.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Dtos\\SupermercadoDto.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Dtos\\SupermercadoDto.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Dtos\\SupermercadoDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T06:45:49.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TipoVehiculoDto.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Dtos\\TipoVehiculoDto.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Dtos\\TipoVehiculoDto.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Dtos\\TipoVehiculoDto.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Dtos\\TipoVehiculoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:10:36.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TiposVehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\TiposVehiculo.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Entidades\\TiposVehiculo.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\TiposVehiculo.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Entidades\\TiposVehiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:24:30.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SupermercadoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\Datos\\SupermercadoRepositorio.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoInfraestructura\\Datos\\SupermercadoRepositorio.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\Datos\\SupermercadoRepositorio.cs",
+              "RelativeToolTip": "PruebaParqueaderoInfraestructura\\Datos\\SupermercadoRepositorio.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:16:33.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Supermercado.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\Supermercado.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Entidades\\Supermercado.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\Supermercado.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Entidades\\Supermercado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:24:24.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TipoVehiculoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\Datos\\TipoVehiculoRepositorio.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoInfraestructura\\Datos\\TipoVehiculoRepositorio.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\Datos\\TipoVehiculoRepositorio.cs",
+              "RelativeToolTip": "PruebaParqueaderoInfraestructura\\Datos\\TipoVehiculoRepositorio.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:14:13.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ISupermercadoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Interfaces\\ISupermercadoRepositorio.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Interfaces\\ISupermercadoRepositorio.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Interfaces\\ISupermercadoRepositorio.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Interfaces\\ISupermercadoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:13:46.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITipoVehiculoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Interfaces\\ITipoVehiculoRepositorio.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Interfaces\\ITipoVehiculoRepositorio.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Interfaces\\ITipoVehiculoRepositorio.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Interfaces\\ITipoVehiculoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:13:26.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ISupermercadoService.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Interfaces\\ISupermercadoService.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Interfaces\\ISupermercadoService.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Interfaces\\ISupermercadoService.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Interfaces\\ISupermercadoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:12:05.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITipoVehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Interfaces\\ITipoVehiculoService.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Interfaces\\ITipoVehiculoService.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Interfaces\\ITipoVehiculoService.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Interfaces\\ITipoVehiculoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:11:27.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LiquidarSalidaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Dtos\\LiquidarSalidaRequest.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Dtos\\LiquidarSalidaRequest.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Dtos\\LiquidarSalidaRequest.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Dtos\\LiquidarSalidaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:42:11.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DefaultInfraestructureModule.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\DefaultInfraestructureModule.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoInfraestructura\\DefaultInfraestructureModule.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\DefaultInfraestructureModule.cs",
+              "RelativeToolTip": "PruebaParqueaderoInfraestructura\\DefaultInfraestructureModule.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:46:49.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StartupSetup.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\StartupSetup.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoInfraestructura\\StartupSetup.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\StartupSetup.cs",
+              "RelativeToolTip": "PruebaParqueaderoInfraestructura\\StartupSetup.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:30:50.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DefaultCoreModule.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\DefaultCoreModule.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\DefaultCoreModule.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\DefaultCoreModule.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\DefaultCoreModule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:43:54.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\appsettings.json",
+              "RelativeDocumentMoniker": "PruebaParqueaderoPresentacion\\appsettings.json",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\appsettings.json",
+              "RelativeToolTip": "PruebaParqueaderoPresentacion\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T04:08:25.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IVehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Interfaces\\IVehiculoService.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Interfaces\\IVehiculoService.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Interfaces\\IVehiculoService.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Interfaces\\IVehiculoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:35:08.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DomainEventDispatcher.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCompartido\\Eventos\\DomainEventDispatcher.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCompartido\\Eventos\\DomainEventDispatcher.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCompartido\\Eventos\\DomainEventDispatcher.cs",
+              "RelativeToolTip": "PruebaParqueaderoCompartido\\Eventos\\DomainEventDispatcher.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:29:48.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DomainEventBase.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCompartido\\Eventos\\DomainEventBase.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCompartido\\Eventos\\DomainEventBase.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCompartido\\Eventos\\DomainEventBase.cs",
+              "RelativeToolTip": "PruebaParqueaderoCompartido\\Eventos\\DomainEventBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:29:12.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IDomainEventDispatcher.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCompartido\\Interfaces\\IDomainEventDispatcher.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCompartido\\Interfaces\\IDomainEventDispatcher.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCompartido\\Interfaces\\IDomainEventDispatcher.cs",
+              "RelativeToolTip": "PruebaParqueaderoCompartido\\Interfaces\\IDomainEventDispatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:56:08.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:24:35.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\Role.cs",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\Entidades\\Role.cs",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\Entidades\\Role.cs",
+              "RelativeToolTip": "PruebaParqueaderoCore\\Entidades\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:22:59.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PruebaParqueaderoInfraestructura",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj",
+              "RelativeDocumentMoniker": "PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj",
+              "RelativeToolTip": "PruebaParqueaderoInfraestructura\\PruebaParqueaderoInfraestructura.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T04:03:28.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PruebaParqueaderoCore",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj",
+              "RelativeToolTip": "PruebaParqueaderoCore\\PruebaParqueaderoCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T04:04:17.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PruebaParqueaderoCompartido",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj",
+              "RelativeDocumentMoniker": "PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj",
+              "RelativeToolTip": "PruebaParqueaderoCompartido\\PruebaParqueaderoCompartido.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T04:04:21.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PruebaParqueaderoPresentacion",
+              "DocumentMoniker": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj",
+              "RelativeDocumentMoniker": "PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj",
+              "ToolTip": "C:\\Users\\lilia\\source\\repos\\PruebaParqueadero\\PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj",
+              "RelativeToolTip": "PruebaParqueaderoPresentacion\\PruebaParqueaderoPresentacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T04:03:51.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
